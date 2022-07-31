@@ -6,9 +6,6 @@ body{
     background-image: url(image/bg.jpg);
     background-color: white;
 }
-.header{
-    height: 20px;
-}
 .container{
     width: 50%;
     height: 300px;
@@ -49,12 +46,14 @@ input[type="submit"], input[type="reset"]{
     font-size: 18px;
 }
 @media(max-width: 768px) {
+.header{
+    height: 100px;
+}
     .container{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
         height: 400px;
-        margin-top: 200px;
 }
 
     input[type="submit"], input[type="reset"]{
