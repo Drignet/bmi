@@ -57,6 +57,10 @@ input[type="submit"], input[type="reset"]{
         height: 350px;
 }
 
+input[type="text"]{
+    font-size: 18px;
+}
+
     input[type="submit"], input[type="reset"]{
         padding: 4px;
         height: 36px;
