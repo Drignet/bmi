@@ -20,6 +20,6 @@ function bmi(height, weight){
     const w = document.getElementById('weight');
     const btn = document.getElementById('btn');
     
-    btn.addEventListener("click", function() {
+    btn.onclick = function() {
   alert(bmi(h.value , w.value));
-});
+};
