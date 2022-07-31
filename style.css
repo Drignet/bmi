@@ -47,13 +47,10 @@ input[type="submit"], input[type="reset"]{
 }
 @media(max-width: 768px) {
     .container{
-    margin-top: 600px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
 }
-    
-    h1{
-        font-size: 24px;
-        padding-top: 20px;
-    }
 
     input[type="submit"], input[type="reset"]{
         padding: 4px;
