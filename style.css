@@ -50,7 +50,7 @@ input[type="submit"], input[type="reset"]{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        height: 350px;
+        height: 400px;
 }
 
     input[type="submit"], input[type="reset"]{
