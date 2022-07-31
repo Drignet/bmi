@@ -6,6 +6,9 @@ body{
     background-image: url(image/bg.jpg);
     background-color: white;
 }
+.header{
+    height: 20px;
+}
 .container{
     width: 50%;
     height: 300px;
