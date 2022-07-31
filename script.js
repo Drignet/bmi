@@ -21,5 +21,8 @@ function bmi(height, weight){
     const btn = document.getElementById('btn');
 
     btn.onclick = function(){
+        body.addEventListener("load", e => {
+  e.preventDefault();
+})
         alert(bmi(h.value , w.value));
     }
