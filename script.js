@@ -1,5 +1,5 @@
 function bmi(height, weight){
-    let BMI = (weight / (height * height))
+    let BMI = (weight / (height * height)).toFixed(2);
     if(BMI < 18.5){
         return `BMI = ${BMI} [Underweight]`;
     }
